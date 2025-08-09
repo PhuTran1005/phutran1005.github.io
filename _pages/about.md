@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-🌈 I am a first-year Ph.D's student at [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/) supervisored by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director). Previously, I earned a Master's degree at KAIST, also under supervisored by Prof Daeyoung Kim as well. 
+🌈 I am a first-year Ph.D's student at [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/) supervisored by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director). Previously, I earned a Master's degree at KAIST supervisored by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director) as well. 
 
 
 📌 My research interests span **Image/Video Image Super-Resolution/Restoration**, including:
