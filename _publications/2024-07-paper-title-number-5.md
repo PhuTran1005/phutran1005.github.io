@@ -2,7 +2,7 @@
 title: "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution"
 collection: publications
 category: conferences
-permalink: /publication/2025-06-08-paper-title-number-5
+permalink: /publication/2024-07-paper-title-number-5
 excerpt: 'This paper is about transformer-based image super-resolution'
 date: 2024-07
 venue: 'The British Machine Vision Conference (BMVC)'

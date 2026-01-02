@@ -2,7 +2,7 @@
 title: "Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition"
 collection: publications
 category: conferences
-permalink: /publication/paper-title-number-6
+permalink: /publication/2024-12-paper-title-number-6
 excerpt: 'This paper is about creating OCR dataset for Vietnamese'
 date: 2024-12
 venue: 'The Association for the Advancement of Artificial Intelligence (AAAI)'

@@ -2,7 +2,7 @@
 title: "VSRM: A Robust Mamba-Based Framework for Video Super-Resolution"
 collection: publications
 category: conferences
-permalink: /publication/paper-title-number-7
+permalink: /publication/2025-05-paper-title-number-7
 excerpt: 'This paper is about Mamba-based for Efficient Video Super-Resolution'
 date: 2025-05
 venue: 'International Conference on Computer Vision (ICCV)'

@@ -2,7 +2,7 @@
 title: "Trans2Unet: neural fusion for nuclei semantic segmentation"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2022-11-paper-title-number-4
 excerpt: 'This paper is about transformer-based medical image super-resolution'
 date: 2022-11
 venue: 'International Conference on Control, Automation and Information Cciences (ICCAIS)'
