@@ -37,7 +37,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 <a href="https://arxiv.org/pdf/2506.22762" target="_blank"><img src="https://img.shields.io/badge/ICCV-2025-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**&quot;. In *Intenational Conference on Computer Vision (ICCV)*, 2025. [[paper](https://arxiv.org/pdf/2506.22762)].
 
-<a href="https://arxiv.org/pdf/2410.13305" target="_blank"><img src="https://img.shields.io/badge/AAAI-2025-blue?style=flat-square"></a>Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim, &quot;**Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2410.13305)].
+<a href="https://arxiv.org/pdf/2410.13305" target="_blank"><img src="https://img.shields.io/badge/AAAI-2025-blue?style=flat-square"></a>Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim, &quot;**Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2410.13305)][[code](https://github.com/thaodod/VieBookRead)].
 
 <a href="https://arxiv.org/pdf/2407.16232" target="_blank"><img src="https://img.shields.io/badge/BMVC-2024-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2407.16232)].
 
