@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Korea Advanced Institute of Science and Technology (KAIST), 2025-present
+* M.S. Computer Science, Korea Advanced Institute of Science and Technology (KAIST), 2023-2025
+* B.S. in Electrical engineering, Hanoi University of Science and Technology (HUST), 2018-2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
+* 2023-present: Research Assistant (MS & Ph.D)
+  * AI2 Lab, School of Computing, KAIST
+  * Duties includes: AI Researcher, fucusing on Image/Video Restoration and Efficient Multimodal Learning
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020-2022: Research Assistant
+  * Mandevice Lab, Electrical Engineering Department, HUST
+  * Duties included: AI Researcher
+  * Supervisor: Professor Hoang Sy Hong
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer & Winter 2022: AI Engineer
+  * USOL VietNam Co. Ltd.
+  * Duties included: Developing AI applications in Healcare (labeling, designing model and training)
+  * Supervisor: PM. Trinh Hong Chuong
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python, C++
+* Deep Learning, Computer Vision
+* Pytorch, Deep Learning Libraries
+* Github, Docker
 
 Publications
 ======
@@ -61,4 +59,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer at AAI 2026 (Main Track)
