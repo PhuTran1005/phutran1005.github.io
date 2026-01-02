@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2025-06-08-paper-title-number-5
+excerpt: 'This paper is about transformer-based image super-resolution'
+date: 2024-07
+venue: 'The British Machine Vision Conference (BMVC)'
+paperurl: 'https://bmvc2024.org/proceedings/432/'
+citation: 'Tran, Dinh Phu, Dao Duy Hung, and Daeyoung Kim. Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution. 35th The British Machine Vision Conference (BMVC), 2024'
 ---
 
 Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
