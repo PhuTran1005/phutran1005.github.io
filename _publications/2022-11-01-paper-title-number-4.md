@@ -2,9 +2,9 @@
 title: "Trans2Unet: neural fusion for nuclei semantic segmentation"
 collection: publications
 category: conferences
-permalink: /publication/2022-11-paper-title-number-4
+permalink: /publication/2022-11-01-paper-title-number-4
 excerpt: 'This paper is about transformer-based medical image super-resolution'
-date: 2022-11
+date: 2022-11-01
 venue: 'International Conference on Control, Automation and Information Cciences (ICCAIS)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9990159'
 citation: 'Tran, Dinh-Phu, et al. Trans2Unet: neural fusion for nuclei semantic segmentation. 2022 11th international conference on control, automation and information sciences (ICCAIS). IEEE, 2022.'
