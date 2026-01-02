@@ -16,8 +16,9 @@ redirect_from:
 
 📢 Recently, I am mainly focusing on **Efficient Multimodal Models**, including:
 * **Reference-Based Post-OCR Processing with LLM**: [VieBookRead](https://arxiv.org/abs/2410.13305)
-* **Audio-Visual Question Answering**: Comming Soon!!!
-Feel free to reach out to me via Email `phutx2000@gmail.com/phutx2000@kaist.ac.kr`, if you are interested in collaborating with me.
+* **Audio-Visual Understanding and Truthworthiness**: Comming Soon!!!
+
+📌 Feel free to reach out to me via Email `phutx2000@gmail.com` or `phutx2000@kaist.ac.kr`, if you are interested in collaborating with me.
 
 
 ## 🔥 News
@@ -62,9 +63,9 @@ Comming Soon!!!
 
 ## 🎤 Talks
 
-Comming Soon!!!
+
 
 ## 📠 Services
 
 ### Conference Reviewer
-Comming Soon!!!
+* Reviewers at AAAI 2026 (Main Track)
