@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Tran Dinh Phu"
   pronouns         : "he/his"  
   bio              : "AI Learner!!!"
@@ -38,9 +38,9 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
-  semantic         : # URL
+  semantic         : "https://www.semanticscholar.org/author/Dinh-Phu-Tran/2312396668"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Phu-Tran-Dinh?ev=hdr_xprf"
   scopus           : # URL
   homepage         : "https://phutran1005.github.io/"
 
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "phu-tran-8380591a7"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

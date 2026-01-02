@@ -11,8 +11,8 @@ redirect_from:
 
 
 📌 My research interests span **Image/Video Image Super-Resolution/Restoration**, including:
-* **Image Super-Resolution**: [CPAT](https://arxiv.org/abs/2407.16232)
-* **Video Super-Resolution**: [VSRM](https://www.arxiv.org/abs/2506.22762)
+* **Image Super-Resolution**: [CPAT](https://arxiv.org/abs/2407.16232) - BMVC 2024, Rank A
+* **Video Super-Resolution**: [VSRM](https://www.arxiv.org/abs/2506.22762) - ICCV 2025, Rank A*
 
 📢 Recently, I am mainly focusing on **Efficient Multimodal Models**, including:
 * **Reference-Based Post-OCR Processing with LLM**: [VieBookRead](https://arxiv.org/abs/2410.13305)
@@ -63,7 +63,7 @@ Comming Soon!!!
 
 ## 🎤 Talks
 
-
+* [KAIST, Fall 2025] An invited talk at CS632 Embedded Operating System about Super-resolution Application
 
 ## 📠 Services
 
