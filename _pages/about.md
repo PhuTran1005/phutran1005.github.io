@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tran Dinh Phu (TranPhu)"
+title: "Tran Dinh Phu (Tran Phu)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,7 +23,7 @@ redirect_from:
 
 ## 🔥 News
 
-* **2025.06.25** 🙌🙌 One paper accepted at ICCV 2025
+* **2025.06.25** 🙌🙌 One paper accepted at ICCV 2025.
 * **2024.09.12** 🤗🤗 One paper accepted at AAAI 2025.
 * **2024.07.19** 🎊🎊 One paper accepted at BMVC 2024.
 * **2022.11.21**: 🎊🎊 One paper accepted at ICCAIS 2022.
