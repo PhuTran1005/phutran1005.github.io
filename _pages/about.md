@@ -15,7 +15,7 @@ redirect_from:
 * **Video Super-Resolution**: [VSRM](https://www.arxiv.org/abs/2506.22762) - ICCV 2025, Rank A*
 
 📢 Recently, I am mainly focusing on **Efficient Multimodal Models**, including:
-* **Reference-Based Post-OCR Processing with LLM**: [VieBookRead](https://arxiv.org/abs/2410.13305)
+* **Reference-Based Post-OCR Processing with LLM**: [VieBookRead](https://arxiv.org/abs/2410.13305) - AAAI 2025, Rank A*
 * **Audio-Visual Understanding and Truthworthiness**: Comming Soon!!!
 
 📌 Feel free to reach out to me via Email `phutx2000@gmail.com` or `phutx2000@kaist.ac.kr`, if you are interested in collaborating with me.
