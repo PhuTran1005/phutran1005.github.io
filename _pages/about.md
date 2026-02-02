@@ -35,7 +35,7 @@ Please find my full publications on my [Google Scholar](https://scholar.google.c
 
 ### Conference Papers
 
-<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf" target="_blank"><img src="https://img.shields.io/badge/ICCV-2025-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**&quot;. In *Intenational Conference on Computer Vision (ICCV)*, 2025. [[paper](https://arxiv.org/pdf/2506.22762)][[code](https://github.com/)][[project](https://github.com/)].
+<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf" target="_blank"><img src="https://img.shields.io/badge/ICCV-2025-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**&quot;. In *Intenational Conference on Computer Vision (ICCV)*, 2025. [[paper](https://arxiv.org/pdf/2506.22762)][[code](https://github.com/)][[website](https://phutran1005.github.io/projects/vsrm/)].
 
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35012" target="_blank"><img src="https://img.shields.io/badge/AAAI-2025-blue?style=flat-square"></a>Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim, &quot;**Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2410.13305)][[code](https://github.com/thaodod/VieBookRead)].
 

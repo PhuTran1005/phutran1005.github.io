@@ -6,9 +6,6 @@ layout: single
 author_profile: true
 ---
 
-
-## SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training
-
 **Dinh Phu Tran¹, Dao Duy Hung¹, Daeyoung Kim¹**
 
 ¹ School of Computing, KAIST, South Korea
@@ -52,7 +49,7 @@ Block (DAMB), which aggregates spatial and temporal features from sequences by u
 ## Qualitative Results
 
 <p align="center">
-  <img src="viz.png" width="95%">
+  <img src="viz.jpg" width="95%">
 </p>
 
 <p align="center">
@@ -79,3 +76,4 @@ Block (DAMB), which aggregates spatial and temporal features from sequences by u
     year      = {2025},
     pages     = {14711-14721}
 }
+```
