@@ -53,7 +53,7 @@ Block (DAMB), which aggregates spatial and temporal features from sequences by u
 </p>
 
 <p align="center">
-  <img src="erf.png" width="95%">
+  <img src="erf.jpg" width="95%">
 </p>
 
 ---
