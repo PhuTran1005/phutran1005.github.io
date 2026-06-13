@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "My Homepage"
+title                    : "Tran Dinh Phu"
 title_separator          : "-"
 name                     : &name "Tran Phu"
-description              : &description "personal description"
+description              : &description "Ph.D. Student at KAIST | Low-Level Vision & Multimodal AI"
 url                      : https://phutran1005.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Tran Dinh Phu"
   pronouns         : "He/His"  
-  bio              : "AI Learner!!!"
+  bio              : "Ph.D. Student at KAIST. Low-level vision & efficient multimodal models."
   location         : "South Korea"
   employer         : "KAIST"
   uri              : # URL

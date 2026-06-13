@@ -1,71 +1,82 @@
 ---
 permalink: /
-title: "Tran Dinh Phu (Tran Phu)"
+title: "Tran Dinh Phu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-🌈 I am a first-year Ph.D's student at [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/) supervisored by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director). Previously, I earned a Master's degree at KAIST supervisored by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director) as well. 
+I am a first-year Ph.D. student at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/), supervised by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director) in the [DEAL Lab](https://www.deal.kaist.ac.kr/). I received my Master's degree from KAIST under the same supervisor.
 
+My research focuses on **low-level vision** and **efficient multimodal models** — building systems that see, restore, and understand visual content at scale.
 
-📌 My research interests span **Image/Video Image Super-Resolution/Restoration**, including:
-* **Image Super-Resolution**: [CPAT](https://arxiv.org/abs/2407.16232) - BMVC 2024, Rank A
-* **Video Super-Resolution**: [VSRM](https://www.arxiv.org/abs/2506.22762) - ICCV 2025, Rank A*
+📧 [phutx2000@gmail.com](mailto:phutx2000@gmail.com) · [phutx2000@kaist.ac.kr](mailto:phutx2000@kaist.ac.kr)
 
-📢 Recently, I am mainly focusing on **Efficient Multimodal Models**, including:
-* **Reference-Based Post-OCR Processing with LLM**: [VieBookRead](https://arxiv.org/abs/2410.13305) - AAAI 2025, Rank A*
-* **Audio-Visual Understanding and Truthworthiness**: Comming Soon!!!
+---
 
-📌 Feel free to reach out to me via Email `phutx2000@gmail.com` or `phutx2000@kaist.ac.kr`, if you are interested in collaborating with me.
+## Research Interests
 
+- **Image & Video Super-Resolution / Restoration** — efficient architectures for high-fidelity visual reconstruction
+- **Efficient Multimodal Models** — audio-visual understanding, document intelligence, and on-device inference
+- **State Space Models (Mamba)** — long-range spatiotemporal modeling for vision tasks
 
-## 🔥 News
+---
 
-* **2025.06.25** 🙌🙌 One paper accepted at ICCV 2025.
-* **2024.09.12** 🤗🤗 One paper accepted at AAAI 2025.
-* **2024.07.19** 🎊🎊 One paper accepted at BMVC 2024.
-* **2022.11.21**: 🎊🎊 One paper accepted at ICCAIS 2022.
+## News
 
+| Date | |
+|---|---|
+| **Jun 2025** | 🎉 [VSRM](https://arxiv.org/abs/2506.22762) accepted at **ICCV 2025** (Rank A\*) |
+| **Sep 2024** | 🎉 [VieBookRead](https://arxiv.org/abs/2410.13305) accepted at **AAAI 2025** (Rank A\*) |
+| **Jul 2024** | 🎉 [CPAT](https://arxiv.org/abs/2407.16232) accepted at **BMVC 2024** (Rank A) |
+| **Nov 2022** | 🎉 [Trans2Unet](https://arxiv.org/abs/2407.17181) accepted at **ICCAIS 2022** |
 
-## 📝 Publications 
+---
 
-Please find my full publications on my [Google Scholar](https://scholar.google.com/citations?user=peeXHDYAAAAJ&hl=en) profile.
+## Selected Publications
 
-### Conference Papers
+Full list on [Google Scholar](https://scholar.google.com/citations?user=peeXHDYAAAAJ&hl=en) · [Semantic Scholar](https://www.semanticscholar.org/author/Dinh-Phu-Tran/2312396668)
 
-<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf" target="_blank"><img src="https://img.shields.io/badge/ICCV-2025-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**&quot;. In *Intenational Conference on Computer Vision (ICCV)*, 2025. [[paper](https://arxiv.org/pdf/2506.22762)][[code](https://github.com/)][[website](https://phutran1005.github.io/projects/vsrm/)].
+---
 
-<a href="https://ojs.aaai.org/index.php/AAAI/article/view/35012" target="_blank"><img src="https://img.shields.io/badge/AAAI-2025-blue?style=flat-square"></a>Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim, &quot;**Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2410.13305)][[code](https://github.com/thaodod/VieBookRead)].
+**VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**  
+<u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim  
+*International Conference on Computer Vision (**ICCV**)*, 2025  
+[![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue?style=flat-square)](https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf)
+[[paper](https://arxiv.org/pdf/2506.22762)] [[project page](https://phutran1005.github.io/projects/vsrm/)]
 
-<a href="https://bmvc2024.org/proceedings/432/" target="_blank"><img src="https://img.shields.io/badge/BMVC-2024-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim, &quot;**Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution**&quot;. In *British Machine Vision Conference (BMVC)*, 2024. [[paper](https://arxiv.org/pdf/2407.16232)].
+---
 
-<a href="https://ieeexplore.ieee.org/abstract/document/9990159" target="_blank"><img src="https://img.shields.io/badge/ICCAIS-2022-blue?style=flat-square"></a> <u>Dinh Phu Tran</u>, Quoc Anh Nguyen, Van Truong Pham, Thi Thao Tran, &quot;**Trans2Unet: neural fusion for nuclei semantic segmentation**&quot;. In *IEEE International Conference on Control, Automation and Information Sciences (ICCAIS)*, 2022. [[paper](https://arxiv.org/pdf/2407.17181)].
+**Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition** (VieBookRead)  
+Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim  
+*AAAI Conference on Artificial Intelligence (**AAAI**)*, 2025  
+[![AAAI 2025](https://img.shields.io/badge/AAAI-2025-blue?style=flat-square)](https://ojs.aaai.org/index.php/AAAI/article/view/35012)
+[[paper](https://arxiv.org/pdf/2410.13305)] [[code](https://github.com/thaodod/VieBookRead)]
 
+---
 
-### Preprints & Under Submission
-Comming Soon!!!
+**Channel-Partitioned Windowed Attention and Frequency Learning for Single Image Super-Resolution** (CPAT)  
+<u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim  
+*British Machine Vision Conference (**BMVC**)*, 2024  
+[![BMVC 2024](https://img.shields.io/badge/BMVC-2024-blue?style=flat-square)](https://bmvc2024.org/proceedings/432/)
+[[paper](https://arxiv.org/pdf/2407.16232)]
 
+---
 
-## 🤗 Resources
+**Trans2Unet: Neural Fusion for Nuclei Semantic Segmentation**  
+<u>Dinh Phu Tran</u>, Quoc Anh Nguyen, Van Truong Pham, Thi Thao Tran  
+*IEEE Int. Conf. on Control, Automation and Information Sciences (**ICCAIS**)*, 2022  
+[![ICCAIS 2022](https://img.shields.io/badge/ICCAIS-2022-blue?style=flat-square)](https://ieeexplore.ieee.org/abstract/document/9990159)
+[[paper](https://arxiv.org/pdf/2407.17181)]
 
-Comming Soon!!!
+---
 
+## Talks
 
-## 💻 Experiences
+- **[KAIST, Fall 2025]** Invited talk at CS632 *Embedded Operating Systems* — Super-Resolution Applications
 
-### Internships
-Comming Soon!!!
- 
-### Visiting
-Comming Soon!!!
+## Academic Service
 
-## 🎤 Talks
-
-* [KAIST, Fall 2025] An invited talk at CS632 Embedded Operating System about Super-resolution Application
-
-## 📠 Services
-
-### Conference Reviewer
-* Reviewers at AAAI 2026 (Main Track)
+**Conference Reviewer**
+- AAAI 2026 (Main Track)
