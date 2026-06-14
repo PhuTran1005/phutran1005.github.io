@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if site.teaching.size > 0 %}
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+<div style="padding: 2em 0; color: #666;">
+  <p>No teaching records listed yet. Check back soon.</p>
+</div>
+{% endif %}

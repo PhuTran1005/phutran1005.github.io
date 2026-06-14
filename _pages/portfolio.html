@@ -7,8 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+{% if site.portfolio.size > 0 %}
+  {% for post in site.portfolio %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+<div style="padding: 2em 0; color: #666;">
+  <p>No portfolio items listed yet. Check back soon.</p>
+</div>
+{% endif %}
