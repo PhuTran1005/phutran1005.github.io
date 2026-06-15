@@ -72,6 +72,12 @@ Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim
 
 ---
 
+## Blog Posts
+
+- [Single Image Super-Resolution with Transformer-Based Architectures: A Deep Dive](/posts/2025/06/transformer-sisr/) — *Jun 2025*
+
+---
+
 ## Talks
 
 - **[KAIST, Fall 2025]** Invited talk at CS632 *Embedded Operating Systems* — Super-Resolution Applications
