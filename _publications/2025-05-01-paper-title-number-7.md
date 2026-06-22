@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-05-01-paper-title-number-7
 excerpt: 'This paper is about Mamba-based for Efficient Video Super-Resolution'
 date: 2025-05-01
-venue: 'International Conference on Computer Vision (ICCV)'
+venue: 'International Conf. on Computer Vision (ICCV) — Hawaii, USA (Rank A*)'
 paperurl: 'https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf'
 citation: 'Phu Tran, Dinh, Dao Duy Hung, and Daeyoung Kim. VSRM: A Robust Mamba-Based Framework for Video Super-Resolution. International Conference on Computer Vision (ICCV), 2025'
 ---

@@ -7,19 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/kr/), supervised by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director) in the [DEAL Lab](https://www.deal.kaist.ac.kr/). I received my Master's degree from KAIST under the same supervisor.
+I am a Ph.D. student in Computer Science at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/), advised by Prof. [Daeyoung Kim](https://www.deal.kaist.ac.kr/members/director) in the [DEAL Lab](https://www.deal.kaist.ac.kr/). I received my M.S. in Computer Science from KAIST (Feb 2025) under the same advisor, and my B.E. in Control Engineering & Automation from the [Hanoi University of Science and Technology (HUST)](https://hust.edu.vn/en/) in 2022, graduating in the top 1% of my program.
 
-My research focuses on **low-level vision** and **efficient multimodal models** — building systems that see, restore, and understand visual content at scale.
+My research centers on **low-level vision** — image & video super-resolution, restoration, and enhancement — and **efficient multimodal learning** — audio-visual understanding and reasoning. I build systems that see, restore, and understand visual content at scale.
 
-📧 [phutx2000@gmail.com](mailto:phutx2000@gmail.com) · [phutx2000@kaist.ac.kr](mailto:phutx2000@kaist.ac.kr)
+📄 [**Curriculum Vitae (PDF)**](/files/Phu_s_CV_2026.pdf) &nbsp;·&nbsp; 📧 [phutx2000@kaist.ac.kr](mailto:phutx2000@kaist.ac.kr) &nbsp;·&nbsp; [phutx2000@gmail.com](mailto:phutx2000@gmail.com)
 
 ---
 
 ## Research Interests
 
-- **Image & Video Super-Resolution / Restoration** — efficient architectures for high-fidelity visual reconstruction
-- **Efficient Multimodal Models** — audio-visual understanding, document intelligence, and on-device inference
-- **State Space Models (Mamba)** — long-range spatiotemporal modeling for vision tasks
+- **Image & Video Restoration / Enhancement** — efficient restoration architectures, diffusion-based generative super-resolution that addresses the trade-off between perceptual and fidelity quality, temporal consistency modeling, and foundation models for image and video enhancement.
+- **Vision–Audio Multimodal Learning** — audio-visual question answering, long-form video understanding, multimodal reasoning, and agentic AI systems; parameter-efficient adaptation of foundation models, cross-modal representation learning, and scalable reasoning over long-horizon audio-video content.
+- **Model Generalization & Regularization** — robust optimization with Sharpness-Aware Minimization (SAM), federated learning, and regularization techniques such as SWA for improving robustness, fairness, and training stability under limited data and compute budgets.
 
 ---
 
@@ -27,30 +27,55 @@ My research focuses on **low-level vision** and **efficient multimodal models** 
 
 | Date | |
 |---|---|
+| **Jun 2026** | 🎉 **FreqOrtho-SR** and **MedCAGD** accepted at **ECCV 2026** (Rank A\*) |
+| **May 2026** | 🎉 **Efficient Encoder-Only Context Compression** accepted at **ICML 2026 Workshop** |
+| **Feb 2026** | 🎉 **SAT** accepted at **CVPR 2026** (Rank A\*) |
+| **2025** | 🏆 Awarded the **Hyundai Global Scholarship** for graduate study (5 slots/cycle) |
 | **Jun 2025** | 🎉 [VSRM](https://arxiv.org/abs/2506.22762) accepted at **ICCV 2025** (Rank A\*) |
-| **Sep 2024** | 🎉 [VieBookRead](https://arxiv.org/abs/2410.13305) accepted at **AAAI 2025** (Rank A\*) |
+| **Feb 2025** | 🎓 Completed my **M.S. in Computer Science** at KAIST |
+| **Dec 2024** | 🎉 [VieBookRead](https://arxiv.org/abs/2410.13305) accepted at **AAAI 2025** (Rank A\*) |
 | **Jul 2024** | 🎉 [CPAT](https://arxiv.org/abs/2407.16232) accepted at **BMVC 2024** (Rank A) |
-| **Nov 2022** | 🎉 [Trans2Unet](https://arxiv.org/abs/2407.17181) accepted at **ICCAIS 2022** |
 
 ---
 
 ## Selected Publications
 
-Full list on [Google Scholar](https://scholar.google.com/citations?user=peeXHDYAAAAJ&hl=en) · [Semantic Scholar](https://www.semanticscholar.org/author/Dinh-Phu-Tran/2312396668)
+Full list on [Google Scholar](https://scholar.google.com/citations?user=peeXHDYAAAAJ&hl=en) · [Semantic Scholar](https://www.semanticscholar.org/author/Dinh-Phu-Tran/2312396668) · [all publications](/publications/). <u>Underlined</u> = me; \* denotes equal contribution.
+
+---
+
+**SAT: Selective Aggregation Transformer for Image Super-Resolution**  
+<u>Dinh Phu Tran</u>, Thao Do, Saad Wazir, Seongah Kim, Seon Kwon Kim, Daeyoung Kim  
+*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**), Finding Track*, 2026  
+![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue?style=flat-square)
+
+---
+
+**FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution**  
+Minh Son Hoang\*, <u>Dinh Phu Tran</u>\*, Quyen Nguyen Duc, Dam Hoang Phuong, Daeyoung Kim  
+*European Conf. on Computer Vision (**ECCV**)*, 2026  
+![ECCV 2026](https://img.shields.io/badge/ECCV-2026-blue?style=flat-square)
+
+---
+
+**MedCAGD: Context-Aware Gated Decoder for Robust Medical Image Segmentation**  
+Saad Wazir, Patrick Vibild, <u>Dinh Phu Tran</u>, Seongah Kim, Daeyoung Kim  
+*European Conf. on Computer Vision (**ECCV**)*, 2026  
+![ECCV 2026](https://img.shields.io/badge/ECCV-2026-blue?style=flat-square)
 
 ---
 
 **VSRM: A Robust Mamba-Based Framework for Video Super-Resolution**  
 <u>Dinh Phu Tran</u>, Dao Duy Hung, Daeyoung Kim  
-*International Conference on Computer Vision (**ICCV**)*, 2025  
+*International Conf. on Computer Vision (**ICCV**)*, 2025  
 [![ICCV 2025](https://img.shields.io/badge/ICCV-2025-blue?style=flat-square)](https://openaccess.thecvf.com/content/ICCV2025/papers/Tran_VSRM_A_Robust_Mamba-Based_Framework_for_Video_Super-Resolution_ICCV_2025_paper.pdf)
-[[paper](https://arxiv.org/pdf/2506.22762)] [[project page](https://phutran1005.github.io/projects/vsrm/)]
+[[paper](https://arxiv.org/pdf/2506.22762)] [[project page](/projects/vsrm/)]
 
 ---
 
 **Reference-Based Post-OCR Processing with LLM for Precise Diacritic Text in Historical Document Recognition** (VieBookRead)  
 Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim  
-*AAAI Conference on Artificial Intelligence (**AAAI**)*, 2025  
+*AAAI Conf. on Artificial Intelligence (**AAAI**), Social Track*, 2025  
 [![AAAI 2025](https://img.shields.io/badge/AAAI-2025-blue?style=flat-square)](https://ojs.aaai.org/index.php/AAAI/article/view/35012)
 [[paper](https://arxiv.org/pdf/2410.13305)] [[code](https://github.com/thaodod/VieBookRead)]
 
@@ -64,17 +89,25 @@ Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim
 
 ---
 
-**Trans2Unet: Neural Fusion for Nuclei Semantic Segmentation**  
-<u>Dinh Phu Tran</u>, Quoc Anh Nguyen, Van Truong Pham, Thi Thao Tran  
-*IEEE Int. Conf. on Control, Automation and Information Sciences (**ICCAIS**)*, 2022  
-[![ICCAIS 2022](https://img.shields.io/badge/ICCAIS-2022-blue?style=flat-square)](https://ieeexplore.ieee.org/abstract/document/9990159)
-[[paper](https://arxiv.org/pdf/2407.17181)]
+Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for Reliable Audio-Visual Question Answering* and *TB-AVA: Text as a Semantic Bridge for Audio-Visual Parameter Efficient Finetuning*. Patent (under review): *Video Super-Resolution Technique Leveraging Spatial-Temporal Mamba Architecture*.
 
 ---
 
-## Blog Posts
+## Honors & Awards
 
-- [Single Image Super-Resolution with Transformer-Based Architectures: A Deep Dive](/posts/2025/06/transformer-sisr/) — *Jun 2025*
+- **Hyundai Global Scholarship** for graduate study (5 slots per admission cycle) — 2025–2029
+- **KAIST Scholarship** for the Ph.D. program (full tuition & fees) — 2025–2029
+- **KAIST Scholarship** for the M.S. program (full tuition & fees) — 2023–2024
+- **Best Bachelor Thesis Award**, HUST — 2022
+- **Scholarship Encouraging Study** (Level A, highest) — 2020–2021, 2021–2022
+- **Nitori International Scholarship** — 2019–2020
+- High school **valedictorian** — 2018
+
+---
+
+## Academic Service
+
+**Conference Reviewer** — AAAI 2026, CVPR 2026, ICML 2026, NeurIPS 2026
 
 ---
 
@@ -82,7 +115,8 @@ Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim
 
 - **[KAIST, Fall 2025]** Invited talk at CS632 *Embedded Operating Systems* — Super-Resolution Applications
 
-## Academic Service
+---
 
-**Conference Reviewer**
-- AAAI 2026 (Main Track)
+## Blog Posts
+
+- [Single Image Super-Resolution with Transformer-Based Architectures: A Deep Dive](/posts/2025/06/transformer-sisr/) — *Jun 2025*

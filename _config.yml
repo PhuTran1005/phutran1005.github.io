@@ -26,10 +26,10 @@ author:
   name             : "Tran Dinh Phu"
   pronouns         : "He/His"  
   bio              : "Ph.D. Student at KAIST. Low-level vision & efficient multimodal models."
-  location         : "South Korea"
+  location         : "Daejeon, South Korea"
   employer         : "KAIST"
   uri              : # URL
-  email            : "phutx2000@gmail.com/phutx2000@kaist.ac.kr" 
+  email            : "phutx2000@kaist.ac.kr"
 
   # Academic websites
   academia         : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "phutran1005"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -81,12 +81,16 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  preprints:
+    title: 'Preprints &amp; Under Review'
   conferences:
     title: 'Conference Papers'
+  patents:
+    title: 'Patents'
+  manuscripts:
+    title: 'Journal Articles'
+  books:
+    title: 'Books'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
