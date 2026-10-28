@@ -39,6 +39,8 @@ My research centers on **low-level vision** — image & video super-resolution, 
 
 ## News
 
+<div class="home-section__scroll" tabindex="0" role="region" aria-label="News updates" markdown="1">
+
 | Date | Update |
 |---|---|
 | **2026** | 🎉 [**EnComp**](https://arxiv.org/abs/2603.09222) accepted at **AACL 2026 (Main, Oral)** |
@@ -51,11 +53,15 @@ My research centers on **low-level vision** — image & video super-resolution, 
 | **Dec 2024** | 🎉 [VieBookRead](https://arxiv.org/abs/2410.13305) accepted at **AAAI 2025** |
 | **Jul 2024** | 🎉 [CPAT](https://arxiv.org/abs/2407.16232) accepted at **BMVC 2024** |
 
+</div>
+
 </section>
 
-<section class="home-section" aria-labelledby="selected-publications" markdown="1">
+<section class="home-section home-publications" aria-labelledby="selected-publications" markdown="1">
 
 ## Selected Publications
+
+<div class="home-section__scroll" tabindex="0" role="region" aria-label="Selected publications list" markdown="1">
 
 Full list on [Google Scholar](https://scholar.google.com/citations?user=peeXHDYAAAAJ&hl=en) · [Semantic Scholar](https://www.semanticscholar.org/author/Dinh-Phu-Tran/2312396668) · [all publications](/publications/). <u>Underlined</u> = me; \* denotes equal contribution.
 
@@ -125,11 +131,15 @@ Thao Do, <u>Dinh Phu Tran</u>, An Vo, Daeyoung Kim
 
 Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for Reliable Audio-Visual Question Answering* and *TB-AVA: Text as a Semantic Bridge for Audio-Visual Parameter Efficient Finetuning*. Patent (under review): *Video Super-Resolution Technique Leveraging Spatial-Temporal Mamba Architecture*.
 
+</div>
+
 </section>
 
-<section class="home-section" aria-labelledby="honors-awards" markdown="1">
+<section class="home-section home-honors" aria-labelledby="honors-awards" markdown="1">
 
 ## Honors & Awards {#honors-awards}
+
+<div class="home-section__scroll" tabindex="0" role="region" aria-label="Honors and awards list" markdown="1">
 
 - **Hyundai Global Scholarship** for graduate study (5 slots per admission cycle) — 2025–2029
 - **KAIST Scholarship** for the Ph.D. program (full tuition & fees) — 2025–2029
@@ -138,6 +148,8 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 - **Scholarship Encouraging Study** (Level A, highest) — 2020–2021, 2021–2022
 - **Nitori International Scholarship** — 2019–2020
 - High school **valedictorian** — 2018
+
+</div>
 
 </section>
 

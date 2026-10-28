@@ -246,7 +246,46 @@
   }
 }
 
+.home-section__scroll {
+  max-height: var(--section-scroll-height, 24rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-text-color-light) transparent;
+
+  &:focus-visible {
+    outline: 2px solid var(--global-link-color);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: var(--global-text-color-light);
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home-publications {
+  --section-scroll-height: 30rem;
+}
+
+.home-honors {
+  --section-scroll-height: 12rem;
+}
+
 .home-news {
+  --section-scroll-height: 18rem;
+
   table {
     margin: 0;
     border: 0;
@@ -398,5 +437,20 @@
     &:first-child {
       width: 5.25rem;
     }
+  }
+
+  .home-news {
+    --section-scroll-height: 16rem;
+  }
+
+  .home-publications {
+    --section-scroll-height: 22rem;
+  }
+}
+
+@media print {
+  .home-section__scroll {
+    max-height: none;
+    overflow: visible;
   }
 }
