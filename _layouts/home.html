@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="homepage">
+  {% include sidebar.html %}
+
+  <article class="homepage__content" itemscope itemtype="https://schema.org/Person">
+    <meta itemprop="name" content="{{ page.title | escape }}">
+    {{ content }}
+  </article>
+</main>

@@ -37,6 +37,10 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
+    --global-surface-color              : #505050;
+    --global-surface-muted-color        : #494949;
+    --global-surface-border-color       : #656565;
+    --global-surface-shadow             : 0 8px 30px rgba(0, 0, 0, 0.14);
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};

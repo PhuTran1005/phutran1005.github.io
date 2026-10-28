@@ -15,7 +15,7 @@ var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.outerWidth() - 16;
 
   // The visible list is overflowing the nav
   if ($vlinks.width() > availableSpace) {
@@ -27,10 +27,9 @@ function updateNav() {
       // Move item to the hidden list
       $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
 
-      availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
-
       // Show the dropdown btn
       $btn.removeClass("hidden");
+      availableSpace = $nav.width() - $btn.outerWidth() - 16;
     }
 
     // The visible list is not overflowing
@@ -44,6 +43,14 @@ function updateNav() {
       } else {
         $hlinks.children().first().appendTo($vlinks);
       }
+
+      // Link widths can change when the viewport or font size changes.
+      // Keep the restored item in the dropdown if it no longer fits.
+      if ($vlinks.width() > availableSpace) {
+        breaks[breaks.length - 1] = $vlinks.width();
+        $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
+        break;
+      }
       breaks.pop();
     }
 
@@ -51,6 +58,7 @@ function updateNav() {
     if (breaks.length < 1) {
       $btn.addClass('hidden');
       $btn.removeClass('close');
+      $btn.attr('aria-expanded', 'false');
       $hlinks.addClass('hidden');
     }
   }
@@ -61,10 +69,12 @@ function updateNav() {
   // update masthead height and the body/sidebar top padding
   var mastheadHeight = $('.masthead').height();
   $('body').css('padding-top', mastheadHeight + 'px');
+  // The homepage profile card manages its own spacing within the grid.
+  var $sidebars = $(".sidebar").not(".homepage .sidebar");
   if ($(".author__urls-wrapper button").is(":visible")) {
-    $(".sidebar").css("padding-top", "");
+    $sidebars.css("padding-top", "");
   } else {
-    $(".sidebar").css("padding-top", mastheadHeight + "px");
+    $sidebars.css("padding-top", mastheadHeight + "px");
   }
 
 }
@@ -81,6 +91,7 @@ screen.orientation.addEventListener("change", function () {
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+  $(this).attr('aria-expanded', String(!$hlinks.hasClass('hidden')));
 });
 
 updateNav();
