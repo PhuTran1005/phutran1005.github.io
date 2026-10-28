@@ -164,6 +164,7 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 
 ## Blog Posts
 
+- [Gated DeltaNet and Gated DeltaNet-2: How Recurrent Models Edit Their Memory]({{ '/posts/2026/10/gated-deltanet-and-gated-deltanet-2/' | relative_url }}) — *Oct 2026*
 - [Mamba in Computer Vision: From Selective State Spaces to Image and Video Restoration]({{ '/posts/2026/10/mamba-in-computer-vision/' | relative_url }}) — *Oct 2026*
 - [Single Image Super-Resolution with Transformer-Based Architectures: A Deep Dive](/posts/2025/06/transformer-sisr/) — *Jun 2025*
 
