@@ -1,0 +1,13 @@
+{% if include.publication.proceedingsurl or include.publication.arxivurl or include.publication.codeurl %}
+<p class="publication__links">
+  {% if include.publication.proceedingsurl %}
+    <a href="{{ include.publication.proceedingsurl | escape }}">[Proceedings]</a>
+  {% endif %}
+  {% if include.publication.arxivurl %}
+    <a href="{{ include.publication.arxivurl | escape }}">[arXiv]</a>
+  {% endif %}
+  {% if include.publication.codeurl %}
+    <a href="{{ include.publication.codeurl | escape }}">[Code]</a>
+  {% endif %}
+</p>
+{% endif %}

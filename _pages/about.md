@@ -71,8 +71,11 @@ Accepted at **AACL 2026 (Main, Oral)**<br>
 
 **SAT: Selective Aggregation Transformer for Image Super-Resolution**  
 <u>Dinh Phu Tran</u>, Thao Do, Saad Wazir, Seongah Kim, Seon Kwon Kim, Daeyoung Kim  
-*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**), Finding Track*, 2026  
+*IEEE/CVF Conf. on Computer Vision and Pattern Recognition (**CVPR**), Findings Track*, 2026<br>
 ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue?style=flat-square)
+
+{% assign sat = site.publications | where: "permalink", "/publication/2026-06-01-sat" | first %}
+{% include publication-links.html publication=sat %}
 
 ---
 
@@ -81,12 +84,18 @@ Minh Son Hoang\*, <u>Dinh Phu Tran</u>\*, Quyen Nguyen Duc, Dam Hoang Phuong, Da
 *European Conf. on Computer Vision (**ECCV**)*, 2026  
 ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-blue?style=flat-square)
 
+{% assign freqortho_sr = site.publications | where: "permalink", "/publication/2026-09-01-freqortho-sr" | first %}
+{% include publication-links.html publication=freqortho_sr %}
+
 ---
 
-**MedCAGD: Context-Aware Gated Decoder for Robust Medical Image Segmentation**  
+**MedCAGD: Context-Aware Gated Decoder for Efficient Medical Image Segmentation**<br>
 Saad Wazir, Patrick Vibild, <u>Dinh Phu Tran</u>, Seongah Kim, Daeyoung Kim  
 *European Conf. on Computer Vision (**ECCV**)*, 2026  
 ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-blue?style=flat-square)
+
+{% assign medcagd = site.publications | where: "permalink", "/publication/2026-09-02-medcagd" | first %}
+{% include publication-links.html publication=medcagd %}
 
 ---
 
