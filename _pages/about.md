@@ -153,6 +153,9 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 
 ## Talks
 
+{% assign cs632_2026 = site.talks | where: "permalink", "/talks/2026-cs632-super-resolution" | first %}
+
+- **[KAIST, Fall 2026]** [{{ cs632_2026.title }}]({{ cs632_2026.permalink | relative_url }}) — CS632 *Embedded Operating Systems* · [Slides ({{ cs632_2026.slides_format }}, {{ cs632_2026.slides_size }})]({{ cs632_2026.slidesurl | relative_url }})
 - **[KAIST, Fall 2025]** Invited talk at CS632 *Embedded Operating Systems* — Super-Resolution Applications
 
 </section>

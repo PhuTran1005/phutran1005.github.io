@@ -1,0 +1,5 @@
+{% if include.talk.slidesurl %}
+<p class="talk__slides">
+  <a href="{{ include.talk.slidesurl | relative_url | escape }}" download>Download slides{% if include.talk.slides_format %} ({{ include.talk.slides_format | escape }}){% endif %}</a>{% if include.talk.slides_size %} &middot; {{ include.talk.slides_size | escape }}{% endif %}
+</p>
+{% endif %}
