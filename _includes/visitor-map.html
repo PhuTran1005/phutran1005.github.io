@@ -1,7 +1,6 @@
 {% if site.visitor_map.enabled %}
-<section class="home-section home-pageviews" aria-labelledby="pageviews">
+<section class="home-pageviews" aria-labelledby="pageviews">
   <h2 id="pageviews">PageViews</h2>
-  <p class="visitor-map__description">Visitors from around the world.</p>
 
   <div class="visitor-map" data-visitor-map data-widget-id="{{ site.visitor_map.widget_id | default: '' | escape }}" data-site-url="{{ site.url | escape }}">
     <div class="visitor-map__placeholder" data-visitor-placeholder role="status" aria-live="polite">
@@ -11,7 +10,7 @@
     <div class="visitor-map__embed" data-visitor-embed></div>
   </div>
 
-  <p class="visitor-map__caption"><span class="visitor-map__legend" aria-hidden="true"></span>Approximate visitor locations &middot; <a href="https://mapmyvisitors.com/" rel="noopener noreferrer" target="_blank">MapMyVisitors</a></p>
+  <p class="visitor-map__caption"><span class="visitor-map__legend" aria-hidden="true"></span><a href="https://mapmyvisitors.com/" title="Approximate visitor locations, powered by MapMyVisitors" rel="noopener noreferrer" target="_blank">MapMyVisitors</a></p>
   <noscript><p class="visitor-map__caption">JavaScript is required to display the visitor map.</p></noscript>
 </section>
 <script type="module" src="{{ '/assets/js/visitor-map.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
