@@ -15,6 +15,14 @@
 
 See more info at https://academicpages.github.io/
 
+## Homepage visitor map
+
+The PageViews card at the bottom of the homepage uses MapMyVisitors to show approximate visitor locations. Create a map for `https://phutran1005.github.io/` at <https://mapmyvisitors.com/add>, then copy the `d` query parameter from its generated script URL into `visitor_map.widget_id` in `_config.yml`.
+
+The globe uses the provider's `mmvst_globe` embed. The identifier is public; do not add an account password or login cookie. The widget only loads on the configured public HTTPS hostname, so local previews do not add visits. Set `visitor_map.enabled: false` to remove the card.
+
+Counts start when the widget is activated. Locations come from approximate IP geolocation and do not identify individual people.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:

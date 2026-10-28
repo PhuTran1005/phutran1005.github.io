@@ -160,6 +160,12 @@ analytics:
   google:
     tracking_id          :
 
+# Homepage visitor map. Copy the d= value from your MapMyVisitors embed code.
+# This is a public widget identifier; never put account credentials here.
+visitor_map:
+  enabled: true
+  widget_id: "UuxPEfHhTD7xugPSU0DEvADnj43YL6b03iTybrFPAyg"
+
 
 # Reading Files
 include:

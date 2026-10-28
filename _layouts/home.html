@@ -10,5 +10,6 @@ layout: default
   <article class="homepage__content" itemscope itemtype="https://schema.org/Person">
     <meta itemprop="name" content="{{ page.title | escape }}">
     {{ content }}
+    {% include visitor-map.html %}
   </article>
 </main>
