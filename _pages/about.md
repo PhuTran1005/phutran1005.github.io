@@ -177,6 +177,7 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 
 ## Blog Posts
 
+- [Dynamic Window Transformers: Adapting Attention Across Scales and Shapes]({{ '/posts/2026/10/dynamic-window-transformers/' | relative_url }}) — *Oct 2026*
 - [CSWin Transformer: How Cross-Shaped Windows Connect an Image]({{ '/posts/2026/10/cswin-transformer-cross-shaped-windows/' | relative_url }}) — *Oct 2026*
 - [Sharpness-Aware Minimization for Computer Vision: From Loss Geometry to Practice]({{ '/posts/2026/10/sharpness-aware-minimization-computer-vision/' | relative_url }}) — *Oct 2026*
 - [Gated DeltaNet and Gated DeltaNet-2: How Recurrent Models Edit Their Memory]({{ '/posts/2026/10/gated-deltanet-and-gated-deltanet-2/' | relative_url }}) — *Oct 2026*

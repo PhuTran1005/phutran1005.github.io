@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="798" viewBox="0 0 480 798" role="img" aria-labelledby="title desc">
+<title id="title">Dynamic multi-scale window fusion in DW-ViT</title>
+<desc id="desc">All fixed-window head groups run in parallel. Their outputs produce input-dependent channel weights through global pooling and an MLP. A weighted sum is expanded from C over G channels to C channels and added to a projected concatenation shortcut. Weights are shared over spatial positions. Window sizes are illustrative.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#55534f"/></marker></defs>
+<rect width="480" height="798" rx="10" fill="#fffdf8"/>
+<style>text{font-family:Arial,sans-serif;fill:#34322f} .title{font-size:22px;font-weight:700}.body{font-size:17px}.small{font-size:14px}.tiny{font-size:12.5px}.line{fill:none;stroke:#55534f;stroke-width:1.6;marker-end:url(#arrow)} .box{fill:#f6f2e9;stroke:#d8cdbb;stroke-width:1.2}</style>
+<text x="240" y="28" text-anchor="middle" class="title">Dynamic multi-scale fusion</text>
+<text x="240" y="51" text-anchor="middle" class="small">DW-ViT: all window branches run</text>
+<rect x="80" y="69" width="320" height="40" rx="8" class="box"/>
+<text x="240" y="95" text-anchor="middle" class="body">Input feature map</text>
+<path d="M240 109V131" class="line"/>
+<text x="240" y="151" text-anchor="middle" class="small">Split heads across fixed window sizes</text>
+<rect x="40" y="165" width="400" height="240" rx="10" fill="#fbf8f1" stroke="#d8cdbb"/>
+<rect x="55" y="174" width="51.2" height="51.2" fill="#fffdf8"/><rect x="67.8" y="186.8" width="12.8" height="12.8" fill="#dceaf6"/><path d="M55.0 174V225.2 M55 174.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M61.4 174V225.2 M55 180.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M67.8 174V225.2 M55 186.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M74.2 174V225.2 M55 193.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M80.6 174V225.2 M55 199.6H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M87.0 174V225.2 M55 206.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M93.4 174V225.2 M55 212.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M99.80000000000001 174V225.2 M55 218.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M106.2 174V225.2 M55 225.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><circle cx="71.0" cy="190.0" r="2.4" fill="#34322f"/><text x="124" y="193" class="body" style="fill:#246eb7;font-weight:700">Small window → Y₁</text><text x="124" y="216" class="small">Attention output: C/G channels</text><rect x="55" y="250" width="51.2" height="51.2" fill="#fffdf8"/><rect x="55.0" y="250.0" width="25.6" height="25.6" fill="#f6e7c5"/><path d="M55.0 250V301.2 M55 250.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M61.4 250V301.2 M55 256.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M67.8 250V301.2 M55 262.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M74.2 250V301.2 M55 269.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M80.6 250V301.2 M55 275.6H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M87.0 250V301.2 M55 282.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M93.4 250V301.2 M55 288.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M99.80000000000001 250V301.2 M55 294.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M106.2 250V301.2 M55 301.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><circle cx="71.0" cy="266.0" r="2.4" fill="#34322f"/><text x="124" y="269" class="body" style="fill:#a96900;font-weight:700">Medium window → Y₂</text><text x="124" y="292" class="small">Attention output: C/G channels</text><rect x="55" y="326" width="51.2" height="51.2" fill="#fffdf8"/><rect x="55.0" y="326.0" width="51.2" height="51.2" fill="#deede4"/><path d="M55.0 326V377.2 M55 326.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M61.4 326V377.2 M55 332.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M67.8 326V377.2 M55 338.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M74.2 326V377.2 M55 345.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M80.6 326V377.2 M55 351.6H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M87.0 326V377.2 M55 358.0H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M93.4 326V377.2 M55 364.4H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M99.80000000000001 326V377.2 M55 370.8H106.2" stroke="#b8b3a8" stroke-width="0.55"/><path d="M106.2 326V377.2 M55 377.2H106.2" stroke="#b8b3a8" stroke-width="0.55"/><circle cx="71.0" cy="342.0" r="2.4" fill="#34322f"/><text x="124" y="345" class="body" style="fill:#2f7d5e;font-weight:700">Large window → Y₃</text><text x="124" y="368" class="small">Attention output: C/G channels</text>
+<path d="M240 405V426" class="line"/>
+<rect x="70" y="430" width="340" height="66" rx="8" class="box"/>
+<text x="240" y="453" text-anchor="middle" class="body" font-weight="700">Input-dependent channel gates</text>
+<text x="240" y="477" text-anchor="middle" class="small">Pool + MLP → softmax across scales</text>
+<path d="M240 496V517" class="line"/>
+<rect x="80" y="521" width="320" height="65" rx="8" class="box"/>
+<text x="240" y="547" text-anchor="middle" class="body" font-weight="700">Weighted sum: R = Σ αᵢYᵢ</text>
+<text x="240" y="570" text-anchor="middle" class="small">C/G channels; spatially shared gates</text>
+<path d="M240 586V607" class="line"/>
+<rect x="90" y="611" width="300" height="43" rx="8" class="box"/>
+<text x="240" y="638" text-anchor="middle" class="body">Expand C/G → C</text>
+<path d="M240 654V679" class="line"/>
+<circle cx="240" cy="695" r="14" fill="#fffdf8" stroke="#55534f" stroke-width="1.5"/>
+<text x="240" y="701" text-anchor="middle" class="title">+</text>
+<path d="M40 392H25V695H223" class="line"/>
+<text x="17" y="554" text-anchor="middle" transform="rotate(-90 17 554)" class="small">Projected concatenation shortcut</text>
+<path d="M240 709V729" class="line"/>
+<rect x="100" y="733" width="280" height="37" rx="8" class="box"/>
+<text x="240" y="758" text-anchor="middle" class="body">Output: C channels</text>
+<text x="240" y="789" text-anchor="middle" class="tiny">Illustrative window sizes; simplified routing diagram.</text>
+</svg>
