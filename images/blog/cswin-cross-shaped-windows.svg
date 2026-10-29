@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="820" viewBox="0 0 480 820" role="img" aria-labelledby="title desc">
+<title id="title">CSWin attention uses two parallel head groups</title>
+<desc id="desc">Two separate 8 by 8 token grids share a query at row 3, column 5. The horizontal-head group attends the entire two-row stripe containing that query. The vertical-head group attends the entire two-column stripe containing the same query. Outputs from the parallel groups are concatenated and projected. Each query has 16 candidate tokens in its own group; one head does not attend the union of both stripes.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="#54534f"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#34332f}.heading{font-size:24px;font-weight:700}.label{font-size:19px}.note{font-size:17px}.grid{stroke:#a49d90;stroke-width:1;fill:none}.connector{stroke:#54534f;stroke-width:2;fill:none}</style>
+<rect width="480" height="820" rx="8" fill="#fffdf8"/>
+<text x="240" y="34" text-anchor="middle" class="heading">Two parallel head groups</text>
+<text x="240" y="62" text-anchor="middle" class="label">Same spatial grid, different attention routes</text>
+
+<rect x="16" y="82" width="408" height="288" rx="10" fill="#fbf8f1" stroke="#d8d0c1"/>
+<text x="34" y="114" class="heading" style="fill:#2563a5">Horizontal head group</text>
+<rect x="34" y="190" width="200" height="50" fill="#dceaf7"/>
+<path class="grid" d="M34,140 V340 M34,140 H234"/>
+<path class="grid" d="M59,140 V340 M34,165 H234"/>
+<path class="grid" d="M84,140 V340 M34,190 H234"/>
+<path class="grid" d="M109,140 V340 M34,215 H234"/>
+<path class="grid" d="M134,140 V340 M34,240 H234"/>
+<path class="grid" d="M159,140 V340 M34,265 H234"/>
+<path class="grid" d="M184,140 V340 M34,290 H234"/>
+<path class="grid" d="M209,140 V340 M34,315 H234"/>
+<path class="grid" d="M234,140 V340 M34,340 H234"/>
+<circle cx="146.5" cy="202.5" r="7" fill="#34332f" stroke="#fffdf8" stroke-width="2"/>
+<text x="250" y="178" class="note">Full image width</text>
+<text x="250" y="207" class="note">Stripe height s = 2</text>
+<text x="250" y="236" class="note">2 × 8 = 16 tokens</text>
+<text x="250" y="265" class="note">for this query</text>
+<circle cx="256" cy="308" r="5" fill="#34332f"/>
+<text x="270" y="314" class="note">Same query</text>
+<path class="connector" d="M424,226 H451" marker-end="url(#arrow)"/>
+<rect x="16" y="390" width="408" height="288" rx="10" fill="#fbf8f1" stroke="#d8d0c1"/>
+<text x="34" y="422" class="heading" style="fill:#a86600">Vertical head group</text>
+<rect x="134" y="448" width="50" height="200" fill="#f6e5c5"/>
+<path class="grid" d="M34,448 V648 M34,448 H234"/>
+<path class="grid" d="M59,448 V648 M34,473 H234"/>
+<path class="grid" d="M84,448 V648 M34,498 H234"/>
+<path class="grid" d="M109,448 V648 M34,523 H234"/>
+<path class="grid" d="M134,448 V648 M34,548 H234"/>
+<path class="grid" d="M159,448 V648 M34,573 H234"/>
+<path class="grid" d="M184,448 V648 M34,598 H234"/>
+<path class="grid" d="M209,448 V648 M34,623 H234"/>
+<path class="grid" d="M234,448 V648 M34,648 H234"/>
+<circle cx="146.5" cy="510.5" r="7" fill="#34332f" stroke="#fffdf8" stroke-width="2"/>
+<text x="250" y="486" class="note">Full image height</text>
+<text x="250" y="515" class="note">Stripe width s = 2</text>
+<text x="250" y="544" class="note">8 × 2 = 16 tokens</text>
+<text x="250" y="573" class="note">for this query</text>
+<circle cx="256" cy="616" r="5" fill="#34332f"/>
+<text x="270" y="622" class="note">Same query</text>
+<path class="connector" d="M424,534 H451" marker-end="url(#arrow)"/>
+<path class="connector" d="M456,226 V704 H240 V720" marker-end="url(#arrow)"/>
+<text x="438" y="696" text-anchor="end" class="note">Branch outputs</text>
+<rect x="58" y="728" width="364" height="68" rx="10" fill="#eee8dc" stroke="#c9bfad"/>
+<text x="240" y="755" text-anchor="middle" class="label" font-weight="700">Concatenate head outputs</text>
+<text x="240" y="780" text-anchor="middle" class="label">then apply the output projection</text>
+</svg>
