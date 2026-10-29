@@ -17,6 +17,10 @@ url                      : https://phutran1005.github.io # the base hostname & p
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
+# Current CV; the update date also refreshes cached PDF links.
+cv_pdf                   : "/files/Phu_s_CV_2026.pdf"
+cv_updated               : "2026-10-29"
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html

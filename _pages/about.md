@@ -18,7 +18,7 @@ I am a Ph.D. student in Computer Science at the [Korea Advanced Institute of Sci
 My research centers on **low-level vision** — image & video super-resolution, restoration, and enhancement — and **efficient multimodal learning** — audio-visual understanding and reasoning. I build systems that see, restore, and understand visual content at scale.
 
 <p class="home-contact">
-  <a href="{{ '/files/Phu_s_CV_2026.pdf' | relative_url }}"><strong>Curriculum Vitae (PDF)</strong></a>
+  <a href="{{ site.cv_pdf | relative_url }}?v={{ site.cv_updated | remove: '-' }}"><strong>Curriculum Vitae (PDF)</strong></a>
   <a href="mailto:phutx2000@kaist.ac.kr">phutx2000@kaist.ac.kr</a>
   <a href="mailto:phutx2000@gmail.com">phutx2000@gmail.com</a>
 </p>
@@ -32,6 +32,7 @@ My research centers on **low-level vision** — image & video super-resolution, 
 - **Image & Video Restoration / Enhancement** — efficient restoration architectures, diffusion-based generative super-resolution that addresses the trade-off between perceptual and fidelity quality, temporal consistency modeling, and foundation models for image and video enhancement.
 - **Vision–Audio Multimodal Learning** — audio-visual question answering, long-form video understanding, multimodal reasoning, and agentic AI systems; parameter-efficient adaptation of foundation models, cross-modal representation learning, and scalable reasoning over long-horizon audio-video content.
 - **Model Generalization & Regularization** — robust optimization with Sharpness-Aware Minimization (SAM), federated learning, and regularization techniques such as SWA for improving robustness, fairness, and training stability under limited data and compute budgets.
+- **Emerging Research Directions** — post-training multimodal large language models (MLLMs) to improve reasoning on complex visual and multimodal tasks.
 
 </section>
 
@@ -143,7 +144,7 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 
 - **Hyundai Global Scholarship** for graduate study (5 slots per admission cycle) — 2025–2029
 - **KAIST Scholarship** for the Ph.D. program (full tuition & fees) — 2025–2029
-- **KAIST Scholarship** for the M.S. program (full tuition & fees) — 2023–2024
+- **KAIST Scholarship** for the M.S. program (full tuition & fees) — 2023–2025
 - **Best Bachelor Thesis Award**, HUST — 2022
 - **Scholarship Encouraging Study** (Level A, highest) — 2020–2021, 2021–2022
 - **Nitori International Scholarship** — 2019–2020
@@ -157,7 +158,7 @@ Also under review: *Knowing When to Answer: Adaptive Confidence Refinement for R
 
 ## Academic Service
 
-**Conference Reviewer** — AAAI 2026, CVPR 2026, ICML 2026, NeurIPS 2026
+**Conference Reviewer** — AAAI 2026–2027, CVPR 2026, ECCV 2026, ICML 2026, NeurIPS 2026
 
 </section>
 
